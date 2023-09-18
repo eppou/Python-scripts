@@ -1,0 +1,15 @@
+This program is designed to simplify the process of transforming finite automata created in JFLAP, a popular educational tool for automata theory, 
+into a matrix representation of states and characters. 
+With this converter, you can quickly and easily convert your JFLAP automata into a format that is suitable for various computational tasks and analyses.
+
+INSTRUCTIONS:
+
+if you gonna let the file together with the script.py:
+
+  put the name of your JFLAP file (example: file.jff) into the " " in the line: tree = ET.parse("automato_5-2.jff"), so in this example the line should be tree = ET.parse("file.jff")
+
+if you gonna let the file in another folder so you need to pass your entire path like this:
+
+file_path = os.path.join("C:\\", "Users", "marco", "Downloads", "lista_5_exercicio_1.jff")
+
+after that in the line: tree = ET.parse("automato_5-2.jff") pass file_path as parameter like that "tree = ET.parse(file_path)".
