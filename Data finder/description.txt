@@ -1,0 +1,3 @@
+this is a simple script to search and print all the data that you find inside any website.
+
+still have some other ideas to improve this script in the future
